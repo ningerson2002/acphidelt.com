@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+	border: none;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+	display: flex;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Fedra Sans', sans-serif;
+	background-color: #fff;
+}
+
+nav {
+	width: 100%;
+	margin: auto;
+	padding: 1rem 1rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 2rem;
+	background-color: #fff;
+	position: fixed;
+	border: 1px solid #cccccc9a;
+}
+
+.nav-logo {
+	max-width: 200px;
+}
+
+.nav-links {
+	list-style: none;
+	display: flex;
+	align-items: center;
+	gap: 3rem;
+}
+
+.link a {
+	position: relative;
+	padding-bottom: 0.75rem;
+	color: #919191;
+}
+
+.link a:hover {
+	color: #002b54;
+	transition: all 0.3s ease;
+}
+
+.link a::after {
+	content: '';
+	position: absolute;
+	height: 2px;
+	width: 0;
+	bottom: 0;
+	left: 0;
+	background-color: #0081c6;
+	transition: all 0.3s ease;
+}
+
+.link a:hover::after {
+	width: 100%;
+}
+
+.btn {
+	padding: 1rem 2rem;
+	font-size: 1rem;
+	color: #fff;
+	background-color: #0081c6;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	color: #ccc;
+}
+
+.container {
+	margin: auto;
+}
+
+.spacer {
+	padding: 10rem;
+}
+
+header {
+	background: linear-gradient(to bottom, #002b54c9, #002b54c9),
+		url(images/IMG_8279.jpg) 0 0 no-repeat fixed;
+	background-size: 100%;
+	background-position: center;
+	overflow: hidden;
+	transition: all 0.5s ease;
+}
+
+header .content {
+	padding: 20rem;
+	align-items: center;
+	text-align: center;
+}
+
+header .content .logo {
+	max-width: 200px;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+
+header .content .info {
+	color: #fff;
+}
+
+header .content .info h1 {
+	max-width: 500px;
+	margin: auto;
+	margin-bottom: 1.5rem;
+	font-size: 2.6rem;
+	font-weight: 700;
+}
+
+header .content .info h2 {
+	margin-bottom: 2rem;
+	font-size: 1.5rem;
+	font-weight: 100;
+}
+
+footer {
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 2rem;
+	border: 1px solid #cccccc9a;
+	padding: 3rem 3rem;
+}
+
+footer h2 {
+	font-size: 1.75rem;
+	font-weight: 600;
+	margin-bottom: 1rem;
+}
+
+footer .blurb p {
+	color: #002b54;
+	font-weight: 100;
+	font-size: 0.9rem;
+}
+
+footer .blurb p img {
+	max-width: 150px;
+	display: inline;
+}
+
+footer .contact-info h2 {
+	font-size: 1.5rem;
+	color: #0081c6;
+	margin-bottom: 2rem;
+}
+
+footer .contact-info i {
+	color: #0081c6;
+}
+
+footer .contact-info ul {
+	list-style: none;
+}
+
+footer .contact-info .contact {
+	margin-bottom: 2rem;
+}
+
+footer .contact-info .contact a {
+	color: #0081c6;
+	font-weight: 600;
+}
+
+footer .contact-info .contact a:hover {
+	text-decoration: underline;
+}
+
+footer .social-links h2 {
+	font-size: 1.5rem;
+	color: #0081c6;
+	margin-bottom: 2rem;
+}
+
+footer .social-links .links {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+footer .social-links .links a {
+	color: #fff;
+	background-color: #002b54;
+	border: 2px solid #002b54;
+	padding: 10px;
+	font-size: 1.5rem;
+	border-radius: 100%;
+	transition: all 0.5s ease;
+}
+
+footer .social-links .links a:hover {
+	color: #002b54;
+	background-color: #fff;
+	transition: all 0.5s ease;
+}
+
+@media (width < 1200px) {
+	header {
+		background-size: 150%;
+		transition: all 0.5s ease;
+	}
+
+	header .content {
+		padding: 15rem;
+	}
+}
