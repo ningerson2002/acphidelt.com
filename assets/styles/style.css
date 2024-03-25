@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
+@font-face {
+  font-family: Lovelo;
+  src: url("/home/ninge/.fonts");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Lovelo", Lovelo, sans-serif;
+  background-color: #f8fafc;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  position: fixed;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 12rem;
+  font-size: 1.25rem;
+}
+
+.nav-logo {
+  max-width: 70px;
+}
+
+.link a {
+  position: relative;
+  padding-bottom: 0.75rem;
+  color: #919191;
+}
+
+.link a:hover {
+  color: #0d1433;
+  transition: all 0.3s ease;
+}
+
+.link a::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #619cc7;
+  transition: all 0.3s ease;
+}
+
+.link a:hover::after {
+  width: 100%;
+}
+
+.container {
+  margin: auto;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #619cc7;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  color: #ccc;
+  transition: all 0.3s ease;
+}
+
+header {
+  background: linear-gradient(to bottom, #0d1433c9, #0d1433c9),
+    url(../images/IMG_8279.jpg) 0 0 no-repeat fixed;
+  background-size: 100%;
+  background-position: center;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+header .content {
+  padding: 20rem;
+  align-items: center;
+  text-align: center;
+}
+
+header .content .logo {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+header .content .info {
+  color: #fff;
+}
+
+header .content .info h1 {
+  max-width: 1000px;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+header .content .info h2 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+.sign-up {
+  background-color: #0d1433;
+  color: #fff;
+  padding: 5rem;
+}
+
+.sign-up .content {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+}
+
+.sign-up .content h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.sign-up .content p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.sign-up .btn {
+  margin: auto;
+}
+
+.why-phi-delt {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.why-phi-delt h3 {
+  color: #619cc7;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.why-phi-delt .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+  color: #0d1433;
+  padding: 1rem;
+}
+
+.why-phi-delt .content p {
+  font-weight: 100;
+  font-size: 1.25rem;
+}
+
+.why-phi-delt .content .facts ul {
+  list-style: none;
+  font-size: 1.25rem;
+}
+
+.why-phi-delt .content .facts .fact {
+  margin-bottom: 1rem;
+}
+
+.cardinal-principles {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.cardinal-principles h2 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  font-size: 2rem;
+  color: #0d1433;
+}
+
+.cardinal-principles .content {
+  margin: 2rem;
+  margin-bottom: 7rem;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 2rem;
+  transition: all 0.5s ease;
+  color: #0d1433;
+}
+
+.cardinal-principles .content .card {
+  text-align: center;
+}
+
+.cardinal-principles .content .card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #0d1433;
+}
+
+.cardinal-principles .content .card img {
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.cardinal-principles .content .card p {
+  font-size: 1rem;
+  color: #0d1433;
+}
+
+.join {
+  background-color: #0d1433;
+  color: #fff;
+  padding: 5rem;
+  align-items: center;
+}
+
+.join .content {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.join .content .header {
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.join a {
+  margin: auto;
+}
