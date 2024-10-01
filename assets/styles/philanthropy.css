@@ -118,15 +118,7 @@ header .content .logo {
 }
 
 header .content .info {
-  color: #f8fafc;
-}
-
-header .content .info h1 {
-  max-width: 1000px;
-  margin: auto;
-  margin-bottom: 1.5rem;
-  font-size: 2.6rem;
-  font-weight: 700;
+  color: #fff;
 }
 
 .sign-up {
@@ -158,14 +150,14 @@ header .content .info h1 {
   margin: auto;
 }
 
-.about {
+.philanthropic-effort {
   max-width: 1200px;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.about h3 {
+.philanthropic-effort h3 {
   color: #619cc7;
   font-size: 1.5rem;
   font-weight: 600;
@@ -173,50 +165,39 @@ header .content .info h1 {
   margin-left: 1rem;
 }
 
-.about .content {
+.philanthropic-effort .content {
   color: #0d1433;
   padding: 1rem;
 }
 
-.about .content p {
+.philanthropic-effort .content p {
   font-weight: 100;
   font-size: 1.25rem;
 }
 
-.cardinal-principles {
+.iron-phi {
   max-width: 1200px;
   margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
-.cardinal-principles h2 {
-  text-align: center;
-  margin-bottom: 2.5rem;
-  font-size: 2rem;
+.iron-phi h3 {
   color: #619cc7;
-}
-
-.cardinal-principles .content {
-  margin: 2rem;
-  margin-bottom: 7rem;
-  display: grid;
-  grid-template-columns: repeat(3, 3fr);
-  gap: 2rem;
-  transition: all 0.5s ease;
-  color: #0d1433;
-}
-
-.cardinal-principles .content .card {
-  text-align: center;
-}
-
-.cardinal-principles .content .card img {
-  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 600;
   margin-bottom: 2rem;
+  margin-left: 1rem;
 }
 
-.cardinal-principles .content .card p {
-  font-size: 1rem;
+.iron-phi .content {
   color: #0d1433;
+  padding: 1rem;
+}
+
+.iron-phi .content p {
+  font-weight: 100;
+  font-size: 1.25rem;
 }
 
 footer {
