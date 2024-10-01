@@ -98,7 +98,7 @@ nav {
 
 header {
   background: linear-gradient(to bottom, #0d1433c9, #0d1433c9),
-    url(../images/runout.jpg) 0 0 no-repeat fixed;
+    url(../images/runout.jpg);
   background-size: 100%;
   background-position: center;
   overflow: hidden;
@@ -118,7 +118,7 @@ header .content .logo {
 }
 
 header .content .info {
-  color: #fff;
+  color: #f8fafc;
 }
 
 header .content .info h1 {
@@ -127,12 +127,6 @@ header .content .info h1 {
   margin-bottom: 1.5rem;
   font-size: 2.6rem;
   font-weight: 700;
-}
-
-header .content .info h2 {
-  margin-bottom: 2rem;
-  font-size: 1.5rem;
-  font-weight: 100;
 }
 
 .sign-up {
@@ -164,14 +158,14 @@ header .content .info h2 {
   margin: auto;
 }
 
-.why-phi-delt {
+.about {
   max-width: 1200px;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
 
-.why-phi-delt h3 {
+.about h3 {
   color: #619cc7;
   font-size: 1.5rem;
   font-weight: 600;
@@ -179,26 +173,14 @@ header .content .info h2 {
   margin-left: 1rem;
 }
 
-.why-phi-delt .content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
+.about .content {
   color: #0d1433;
   padding: 1rem;
 }
 
-.why-phi-delt .content p {
+.about .content p {
   font-weight: 100;
   font-size: 1.25rem;
-}
-
-.why-phi-delt .content .facts ul {
-  list-style: none;
-  font-size: 1.25rem;
-}
-
-.why-phi-delt .content .facts .fact {
-  margin-bottom: 1rem;
 }
 
 .cardinal-principles {
