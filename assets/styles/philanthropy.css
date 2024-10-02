@@ -166,13 +166,21 @@ header .content .info {
 }
 
 .philanthropic-effort .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
   color: #0d1433;
   padding: 1rem;
 }
 
-.philanthropic-effort .content p {
+.philanthropic-effort .content .card p {
   font-weight: 100;
   font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.philanthropic-effort .card img {
+  max-width: 500px;
 }
 
 .iron-phi {
@@ -198,6 +206,46 @@ header .content .info {
 .iron-phi .content p {
   font-weight: 100;
   font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.iron-phi-participants {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.iron-phi-participants h3 {
+  color: #619cc7;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.iron-phi-participants .content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.iron-phi-participants .content .card {
+  text-align: center;
+  align-items: center;
+}
+
+.iron-phi-participants .content .card img {
+  padding: 1rem;
+}
+
+.iron-phi-participants .content .card h3 {
+  color: #0d1433;
+  margin-bottom: 0.25rem;
+}
+
+.iron-phi-participants .content .card p {
+  color: #619cc7;
 }
 
 footer {
