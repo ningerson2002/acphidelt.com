@@ -27,6 +27,10 @@ body {
   background-color: #f8fafc;
 }
 
+p {
+  font-family: "Poppins", Poppins, sans-serif;
+}
+
 nav {
   width: 100%;
   margin: auto;
@@ -129,35 +133,6 @@ header .content .info h1 {
   font-weight: 700;
 }
 
-.sign-up {
-  background-color: #0d1433;
-  color: #fff;
-  padding: 5rem;
-}
-
-.sign-up .content {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10rem;
-}
-
-.sign-up .content h1 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 900;
-}
-
-.sign-up .content p {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.sign-up .btn {
-  margin: auto;
-}
-
 .about {
   max-width: 1200px;
   margin: auto;
@@ -169,11 +144,13 @@ header .content .info h1 {
   color: #619cc7;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 2rem;
-  margin-left: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .about .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
   color: #0d1433;
   padding: 1rem;
 }
@@ -181,42 +158,66 @@ header .content .info h1 {
 .about .content p {
   font-weight: 100;
   font-size: 1.25rem;
-}
-
-.cardinal-principles {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.cardinal-principles h2 {
-  text-align: center;
-  margin-bottom: 2.5rem;
-  font-size: 2rem;
-  color: #619cc7;
-}
-
-.cardinal-principles .content {
-  margin: 2rem;
-  margin-bottom: 7rem;
-  display: grid;
-  grid-template-columns: repeat(3, 3fr);
-  gap: 2rem;
-  transition: all 0.5s ease;
-  color: #0d1433;
-}
-
-.cardinal-principles .content .card {
-  text-align: center;
-}
-
-.cardinal-principles .content .card img {
-  align-items: center;
   margin-bottom: 2rem;
 }
 
-.cardinal-principles .content .card p {
+.famous-phis {
+  background: linear-gradient(to bottom, #0d1433c9, #0d1433c9),
+    url(../images/famous-phis.png) 0 0 no-repeat fixed;
+  background-size: 100%;
+  background-position: center;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  padding: 5rem;
+  color: #f8fafc;
+}
+
+.famous-phis .content {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10rem;
+}
+
+.famous-phis .content h1 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.famous-phis .content p {
   font-size: 1rem;
-  color: #0d1433;
+  font-weight: 400;
+}
+
+.famous-phis .btn {
+  margin: auto;
+}
+
+.about-the-chapter {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.about-the-chapter .content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.about-the-chapter .content h3 {
+  color: #619cc7;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.about-the-chapter .content .info p {
+  font-size: 1.25rem;
+  font-weight: 100;
 }
 
 footer {
