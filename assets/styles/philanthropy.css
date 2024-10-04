@@ -51,6 +51,7 @@ nav {
   align-items: center;
   gap: 12rem;
   font-size: 1.25rem;
+  margin: auto;
 }
 
 .nav-logo {
