@@ -139,35 +139,6 @@ header .content .info h2 {
   font-weight: 100;
 }
 
-.sign-up {
-  background-color: #0d1433;
-  color: #fff;
-  padding: 5rem;
-}
-
-.sign-up .content {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10rem;
-}
-
-.sign-up .content h1 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 900;
-}
-
-.sign-up .content p {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.sign-up .btn {
-  margin: auto;
-}
-
 .officers {
   max-width: 1200px;
   margin: auto;
