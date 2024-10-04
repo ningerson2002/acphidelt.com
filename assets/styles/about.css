@@ -5,6 +5,11 @@
   src: url("/home/ninge/.fonts");
 }
 
+::selection {
+  color: #f8fafc;
+  background-color: #619cc7;
+}
+
 * {
   padding: 0;
   margin: 0;
