@@ -127,35 +127,6 @@ header .content .info {
   color: #fff;
 }
 
-.sign-up {
-  background-color: #0d1433;
-  color: #fff;
-  padding: 5rem;
-}
-
-.sign-up .content {
-  max-width: 1200px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10rem;
-}
-
-.sign-up .content h1 {
-  margin-bottom: 1rem;
-  font-size: 2rem;
-  font-weight: 900;
-}
-
-.sign-up .content p {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.sign-up .btn {
-  margin: auto;
-}
-
 .philanthropic-effort {
   max-width: 1200px;
   margin: auto;
@@ -190,23 +161,24 @@ header .content .info {
 }
 
 .iron-phi {
+  background-color: #0d1433;
+}
+
+.iron-phi .content {
   max-width: 1200px;
   margin: auto;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  color: #f8fafc;
+  padding: 1rem;
 }
 
-.iron-phi h3 {
-  color: #619cc7;
+.iron-phi .content h3 {
+  color: #f8fafc;
   font-size: 1.5rem;
   font-weight: 600;
+  margin-top: 1.25rem;
   margin-bottom: 2rem;
-  margin-left: 1rem;
-}
-
-.iron-phi .content {
-  color: #0d1433;
-  padding: 1rem;
 }
 
 .iron-phi .content p {

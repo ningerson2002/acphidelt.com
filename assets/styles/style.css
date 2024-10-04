@@ -148,9 +148,11 @@ header .content .info h2 {
 .sign-up .content {
   max-width: 1200px;
   margin: auto;
-  display: grid;
+  /* display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10rem;
+  gap: 10rem; */
+  text-align: center;
+  align-items: center;
 }
 
 .sign-up .content h1 {
@@ -162,6 +164,7 @@ header .content .info h2 {
 .sign-up .content p {
   font-size: 1rem;
   font-weight: 400;
+  margin-bottom: 1rem;
 }
 
 .sign-up .btn {
