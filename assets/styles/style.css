@@ -115,7 +115,7 @@ header {
 }
 
 header .content {
-  padding: 20rem;
+  padding: 10rem;
   align-items: center;
   text-align: center;
 }
@@ -200,7 +200,6 @@ header .content .info h2 {
 }
 
 .why-phi-delt .content p {
-  font-weight: 100;
   font-size: 1.25rem;
 }
 
@@ -268,17 +267,17 @@ footer .links {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 1rem;
+  gap: 2rem;
   margin-bottom: 7rem;
 }
 
 footer .links a {
   color: #0d1433;
-  border: 1px solid #0d1433;
+  border: 2px solid #0d1433;
   padding: 15px;
   font-size: 3rem;
   border-radius: 100%;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 footer .links a:hover {
@@ -295,4 +294,17 @@ footer .links a:hover {
   color: #0d1433;
   font-size: 0.8rem;
   text-align: center;
+}
+
+@media (width < 1000px) {
+  .why-phi-delt .content {
+    grid-template-columns: none;
+  }
+  .cardinal-principles .content {
+    grid-template-columns: none;
+  }
+  footer .links {
+    width: 80%;
+    margin: auto;
+  }
 }
