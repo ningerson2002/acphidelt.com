@@ -43,10 +43,10 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
   background-color: rgba(255, 255, 255, 0.8);
   backdrop-filter: blur(5px);
   position: fixed;
+  z-index: 1000;
 }
 
 .nav-links {
@@ -59,6 +59,14 @@ nav {
 
 .nav-logo {
   max-width: 70px;
+}
+
+.menu-toggle {
+  display: none;
+  font-size: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
 }
 
 .link a {
@@ -297,6 +305,26 @@ footer .links a:hover {
 }
 
 @media (width < 1000px) {
+  .nav-links {
+    position: fixed;
+    top: 0;
+    left: -100%;
+    height: 100vh;
+    width: 80%;
+    background-color: #0d1433;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: left 0.3s ease;
+    padding: 2rem;
+    z-index: 999;
+  }
+  .nav-links.active {
+    left: 0;
+  }
+  .menu-toggle {
+    display: block;
+  }
   .why-phi-delt .content {
     grid-template-columns: none;
   }
