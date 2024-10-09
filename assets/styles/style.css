@@ -54,7 +54,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .nav-logo {
@@ -63,7 +63,7 @@ nav {
 
 .menu-toggle {
   display: none;
-  font-size: 2rem;
+  font-size: 1.25rem;
   background: none;
   border: none;
   cursor: pointer;
@@ -100,8 +100,8 @@ nav {
 }
 
 .btn {
-  padding: 1rem 2rem;
-  font-size: 1rem;
+  padding: 1rem;
+  font-size: 0.75rem;
   color: #fff;
   background-color: #619cc7;
   cursor: pointer;
@@ -126,6 +126,7 @@ header .content {
   padding: 16rem;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 header .content .logo {
@@ -142,13 +143,13 @@ header .content .info h1 {
   max-width: 1000px;
   margin: auto;
   margin-bottom: 1.5rem;
-  font-size: 2.6rem;
+  font-size: 1.75rem;
   font-weight: 700;
 }
 
 header .content .info h2 {
   margin-bottom: 2rem;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 100;
 }
 
@@ -170,12 +171,12 @@ header .content .info h2 {
 
 .sign-up .content h1 {
   margin-bottom: 1rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
 .sign-up .content p {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
@@ -193,28 +194,28 @@ header .content .info h2 {
 
 .why-phi-delt h3 {
   color: #619cc7;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 600;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   margin-left: 1rem;
 }
 
 .why-phi-delt .content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3rem;
+  gap: 2rem;
   color: #0d1433;
   padding: 1rem;
 }
 
 .why-phi-delt .content p {
-  font-size: 1.25rem;
+  font-size: 0.75rem;
 }
 
 .why-phi-delt .content .facts ul {
   font-family: "Poppins", Poppins, sans-serif;
   list-style: none;
-  font-size: 1.25rem;
+  font-size: 0.75rem;
 }
 
 .why-phi-delt .content .facts .fact {
@@ -229,7 +230,7 @@ header .content .info h2 {
 .cardinal-principles h2 {
   text-align: center;
   margin-bottom: 2.5rem;
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: #619cc7;
 }
 
@@ -253,7 +254,7 @@ header .content .info h2 {
 }
 
 .cardinal-principles .content .card p {
-  font-size: 1rem;
+  font-size: 0.75rem;
   color: #0d1433;
 }
 
@@ -265,7 +266,7 @@ footer {
 footer h2 {
   text-align: center;
   margin-bottom: 2.5rem;
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: #619cc7;
 }
 
@@ -283,7 +284,7 @@ footer .links a {
   color: #0d1433;
   border: 2px solid #0d1433;
   padding: 15px;
-  font-size: 3rem;
+  font-size: 2rem;
   border-radius: 100%;
   transition: all 0.5s ease;
 }
@@ -300,7 +301,7 @@ footer .links a:hover {
   margin: auto;
   padding: 1rem;
   color: #0d1433;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-align: center;
 }
 

@@ -54,7 +54,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 
 .nav-logo {
@@ -63,7 +63,7 @@ nav {
 
 .menu-toggle {
   display: none;
-  font-size: 2rem;
+  font-size: 1.25rem;
   background: none;
   border: none;
   cursor: pointer;
@@ -100,8 +100,8 @@ nav {
 }
 
 .btn {
-  padding: 1rem 2rem;
-  font-size: 1rem;
+  padding: 1rem;
+  font-size: 0.75rem;
   color: #fff;
   background-color: #619cc7;
   cursor: pointer;
@@ -123,9 +123,10 @@ header {
 }
 
 header .content {
-  padding: 20rem;
+  padding: 10rem;
   align-items: center;
   text-align: center;
+  margin: auto;
 }
 
 header .content .logo {
@@ -141,15 +142,14 @@ header .content .info {
 header .content .info h1 {
   max-width: 80%;
   margin: auto;
-  margin-bottom: 1.5rem;
-  font-size: 2.6rem;
+  font-size: 1.75rem;
   font-weight: 700;
 }
 
 .sign-up {
   background-color: #0d1433;
   color: #fff;
-  padding: 5rem;
+  padding: 2.5rem;
 }
 
 .sign-up .content {
@@ -160,7 +160,7 @@ header .content .info h1 {
 
 .sign-up .content h1 {
   margin-bottom: 1.25rem;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 900;
 }
 
@@ -176,14 +176,14 @@ header .content .info h1 {
 
 .recruitment-video .column h1 {
   color: #619cc7;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 2rem;
 }
 
 .recruitment-video .column p {
   font-weight: 100;
-  font-size: 1rem;
+  font-size: 0.75rem;
 }
 
 footer {
@@ -194,7 +194,7 @@ footer {
 footer h2 {
   text-align: center;
   margin-bottom: 2.5rem;
-  font-size: 2rem;
+  font-size: 1.25rem;
   color: #619cc7;
 }
 
@@ -212,7 +212,7 @@ footer .links a {
   color: #0d1433;
   border: 1px solid #0d1433;
   padding: 15px;
-  font-size: 3rem;
+  font-size: 2rem;
   border-radius: 100%;
   transition: all 0.3s ease;
 }
@@ -227,9 +227,10 @@ footer .links a:hover {
   font-family: "Poppins", Poppins, sans-serif;
   max-width: 80%;
   margin: auto;
+  margin-top: 2rem;
   padding: 1rem;
   color: #0d1433;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   text-align: center;
 }
 
@@ -237,9 +238,15 @@ footer .links a:hover {
   header {
     background-size: 125%;
   }
+
   header .content {
     padding: 10rem;
   }
+
+  header .content .logo {
+    display: none;
+  }
+
   .nav-links {
     position: fixed;
     top: 0;
@@ -255,21 +262,27 @@ footer .links a:hover {
     padding: 2rem;
     z-index: 999;
   }
+
   .nav-links.active {
     left: 0;
   }
+
   .menu-toggle {
     display: block;
   }
+
   .curtain-menu {
     overflow: hidden;
   }
+
   .recruitment-video {
     grid-template-columns: none;
   }
+
   .recruitment-video video {
     margin: auto;
   }
+
   footer .links {
     width: 80%;
     margin: auto;
