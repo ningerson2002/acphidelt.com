@@ -260,6 +260,7 @@ header .content .info h2 {
 footer {
   position: relative;
   text-align: center;
+  z-index: -9999;
 }
 
 footer h2 {
@@ -267,6 +268,7 @@ footer h2 {
   margin-bottom: 2.5rem;
   font-size: 2rem;
   color: #619cc7;
+  z-index: -9999;
 }
 
 footer .links {
@@ -277,6 +279,7 @@ footer .links {
   justify-content: space-between;
   gap: 2rem;
   margin-bottom: 7rem;
+  z-index: -9999;
 }
 
 footer .links a {
@@ -286,6 +289,7 @@ footer .links a {
   font-size: 3rem;
   border-radius: 100%;
   transition: all 0.5s ease;
+  z-index: -9999;
 }
 
 footer .links a:hover {
@@ -311,6 +315,7 @@ footer .links a:hover {
   img {
     max-width: 100%; /* Ensure images scale down */
     height: auto; /* Maintain aspect ratio */
+    top: 0;
   }
   header {
     background-size: 125%;
@@ -331,7 +336,7 @@ footer .links a:hover {
     justify-content: center;
     transition: left 0.3s ease;
     padding: 2rem;
-    z-index: 1000;
+    z-index: 9999;
   }
   .nav-links.active {
     left: 0;
@@ -341,6 +346,7 @@ footer .links a:hover {
   }
   .curtain-menu {
     overflow: hidden;
+    z-index: 9999;
   }
   .btn {
     padding: 1rem 2rem;

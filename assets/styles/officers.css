@@ -194,6 +194,7 @@ header .content .info h2 {
 footer {
   position: relative;
   text-align: center;
+  z-index: -9999;
 }
 
 footer h2 {
@@ -258,7 +259,7 @@ footer .links a:hover {
     justify-content: center;
     transition: left 0.3s ease;
     padding: 2rem;
-    z-index: 999;
+    z-index: 9999;
   }
   .nav-links.active {
     left: 0;
@@ -268,6 +269,7 @@ footer .links a:hover {
   }
   .curtain-menu {
     overflow: hidden;
+    z-index: 9999;
   }
   .officers .content {
     grid-template-columns: none;
